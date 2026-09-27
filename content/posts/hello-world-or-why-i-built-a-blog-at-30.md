@@ -1,6 +1,6 @@
 +++
 date = '2026-09-28T00:55:13+07:00'
-draft = true
+draft = false
 title = 'Hello World or Why I Built a Blog at 30?'
 +++
 
