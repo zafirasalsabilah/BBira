@@ -17,7 +17,7 @@ Actually, I wanted to share a few details about myself, but honestly, that’s a
 Back to the topic.. why start a blog at 30? Because it’s only happening now. A long, long time ago (whenever that was), the idea of starting a blog had already crossed my mind. My friends used to say <i>"Just start a blog, it suits you"</i> or <i>"Hurry up and start a blog"</i> or <i>"I'm sure a lot of people will read it"</i> yadda yadda. They forgot that Indonesians have a really low reading interest.. Even I haven't managed to finish reading a single book this whole year. I also don’t know what a good niche would be to talk about, plus nowadays people prefer scrolling through social media anyway.
 
 Sorry for going off on a tangent, here’s the list of my reasons:
-1. But being an adult is tiring. I still need a space to write without having to worry about engagement, likes, or algorithms.
+1. Being an adult is tiring. I still need a space to write without having to worry about engagement, likes, or algorithms.
 
 2. Back then, I didn't know about Hugo yet, and I actually used to have a website with paid hosting. But since I couldn't afford to rent it anymore, and I wasn't consistent with writing either, as soon as the subscription was stopped, the content vanished too.
 
