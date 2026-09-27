@@ -1,0 +1,17 @@
+# Lines cycled by the typed masthead on the home page.
+#
+# `pre`    renders in --ink (the body text colour)
+# `accent` renders in --accent (the one accent colour)
+# "\n"     forces a line break; a trailing space keeps the line running on
+#
+# These are placeholders. Override them by creating data/quotes.yaml in your own
+# site root — your file replaces this one wholesale, it does not merge into it.
+lines:
+  - pre: "You will waste your time here.\n"
+    accent: "But thank you for visiting this blog."
+  - pre: "To save your time, "
+    accent: "this blog is just a collection of my random thoughts."
+  - pre: "Still here?\n"
+    accent: "You don't listen, do you?"
+  - pre: "Alright, alright\n"
+    accent: "Welcome, I guess, and enjoy exploring!"
