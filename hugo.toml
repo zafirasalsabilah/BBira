@@ -1,4 +1,83 @@
-theme = 'ananke'
+theme = "nuno"
+title = "BBira"
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+
+[params]
+  homeStyle = "ledger"
+  homeHeader= "masthead"  # masthead | profile
+  mainSections = ["posts"]
+  DateFormat = "2 January 2006"
+  
+  # --- palette -------------------------------------------------------------
+  accent = "#e8b04b"      # dark-mode accent: mustard (default)
+  accentLight = ""        # empty = derive a darkened variant that clears 4.5:1
+  ground = "brown"        # brown | green
+  defaultTheme = "auto"   # dark | light | auto (auto follows the OS)
+  
+  # --- identity ------------------------------------------------------------
+  brand = "BBira"
+  # No `favicon` here on purpose: with it unset the theme probes assets/ for
+  # favicon.{ico,svg,png} and finds assets/favicon.png. Set params.favicon only
+  # for a file in static/ — it is resolved with relURL, not through the asset
+  # pipeline. If neither exists the theme emits no icon link at all, which beats
+  # a hardcoded /favicon.ico 404 on every page.
+  favicon = ""
+  ogImage = "favicon.png"
+  readingProgress = true
+  masthead = '( <span class="accent">-_ - ゞ</span>) Hi<span class="accent">.</span>'
+  copyright = "© 2026 Made with ❤️ · Built with Hugo & Netlify · Theme Nuno"
+
+[params.author]
+    name = "フィラ"
+
+[related]
+  threshold = 80
+  includeNewer = true
+  toLower = true
+  [[related.indices]]
+    name = "tags"
+    weight = 100
+  [[related.indices]]
+    name = "categories"
+    weight = 60
+  [[related.indices]]
+    name = "series"
+    weight = 40
+  [[related.indices]]
+    name = "date"
+    weight = 10
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+    ordered = false
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.highlight]
+    # Class-based highlighting, so the theme's palettes drive the colours.
+    noClasses = false
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Writing"
+    url = "/posts/"
+    weight = 10
+
+
+[security.funcs]
+  getenv = ["^HUGO_", "^CI$"]
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'

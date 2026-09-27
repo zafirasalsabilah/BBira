@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Posts on </title>
-		<link>/posts/</link>
-		<description>Recent content in Posts on </description>
+		<title>Posts on BBira</title>
+		<link>//localhost:1313/posts/</link>
+		<description>Recent content in Posts on BBira</description>
 		<generator>Hugo</generator>
 		<language>en</language>
 		
 		
 		
 		
-			<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+			<lastBuildDate>Mon, 28 Sep 2026 00:55:13 +0700</lastBuildDate>
+		
+			<atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Hello World or Why I Built a Blog at 30?</title>
+				<link>//localhost:1313/posts/hello-world-or-why-i-built-a-blog-at-30/</link>
+				<pubDate>Mon, 28 Sep 2026 00:55:13 +0700</pubDate>
+				<guid>//localhost:1313/posts/hello-world-or-why-i-built-a-blog-at-30/</guid>
+				<description>&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/youkoso_hu_eca7f470fa04d786.webp&#34; alt=&#34;Welcome!&#34; width=&#34;1360&#34; height=&#34;759&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;Hello there. Are you from HelloTalk? lol. As of the time this post goes live, I’ve only ever shared the link to this blog on that platform. I don&amp;rsquo;t really have any other social media, so yeah&amp;hellip; anyway, welcome my friend!&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m Fira. 30 years old. A fully grown woman. Living in South Tangerang, Indonesia. Archery is my hobby. Unemployed, but freelancing occasionally. Educational background? IT. Bad habit? Getting bored easily. Good habit? Still thinking about it. Charming point? My personality? 🫶🏻🥹 Status? Single ❤️‍🩹&lt;/p&gt;</description>
+			</item>
 	</channel>
 </rss>
